@@ -10,7 +10,7 @@
     .menu-container {
         width: 100vw;
         height: auto;
-        background-color: #2B1135;
+        background-color: #AD0018;
         overflow: hidden;
         display: flex;
         justify-content: center; 
@@ -28,7 +28,7 @@
 
     .menu-container a {
         float: left;
-        color: #CC9CCC;
+        color: #FF9AA4;
         justify-self: center;
         padding: 1% 1%;
         display: flex;
@@ -44,8 +44,8 @@
       
       /* Add a color to the active/current link */
       .menu-container a.active {
-        background-color: #CC9CCC;;
-        color: #2B1135;
+        background-color: #FF9AA4;;
+        color: #AD0018;
       }
 
       .badge{
@@ -70,7 +70,7 @@
         align-items: center; 
         font-family:'Times New Roman', Times, serif;
         font-size: 300%;
-        color: #2B1135;
+        color: #AD0018;
         }
 
         .header hr{
@@ -79,7 +79,7 @@
             display: flex;
             width: 90%;
             margin-left: 6%;
-            background-color: #2B1135;
+            background-color: #AD0018;
             height: 1mm;
         }
 
@@ -88,7 +88,7 @@
            height: auto;
            display: flex;
            justify-content: center;
-           color: #2B1135; 
+           color: #AD0018; 
            font-size:3vw;
         }
 
@@ -115,7 +115,7 @@
                 align-items:center; 
                 font-family:'Times New Roman', Times, serif;
                 font-size:2vw;
-                color: #2B1135;
+                color: #AD0018;
                 
         }
 
@@ -159,7 +159,7 @@
 }
 
 .fieldset{
-    border: 1px solid #CC9CCC;
+    border: 1px solid #FF9AA4;
 }
 
 html{
@@ -187,7 +187,7 @@ section{
 }
 
 .accordion-item{
-    background-color: #2B1135;
+    background-color: #AD0018;
     border-radius: 1ssrem;
     
     margin: 1rem;
@@ -197,9 +197,9 @@ section{
 
 .accordion-link{
     font-size: 1.6rem;
-    color: #CC9CCC;
+    color: #FF9AA4;
     text-decoration: none;
-    background-color: #2B1135;
+    background-color: #AD0018;
     width: 100%;
     display: flex;
     align-items: center;
@@ -208,7 +208,7 @@ section{
 }
 
 .accordion-link i{
-    color: #ffffffcc;
+    color: #ff5f5fcc;
     padding: .5rem;
 }
 
@@ -220,7 +220,7 @@ section{
     max-height: 0;
     overflow: hidden;
     position: relative;
-    background-color: #f3cdf3;
+    background-color: #ffffffcc;
     transition: max-height 350ms;
 }
 
@@ -229,7 +229,7 @@ section{
     position: absolute;
     width: .6rem;
     height: 90%;
-    background-color: #CC9CCC;
+    background-color: #FF9AA4;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
@@ -260,12 +260,12 @@ section{
 /*----------------------ACCORDIAN END----------------*/ 
 
 footer{
-    background: #2B1135;
+    background: #AD0018;
     height: auto;
     width: 100vw;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 40px;
-    color: #CC9CCC;
+    color: #FF9AA4;
 }
 
 .footer-container{
@@ -304,7 +304,7 @@ footer{
 
 .socials a{
     text-decoration: none;
-    color: #CC9CCC;
+    color: #FF9AA4;
 }
 
 .socials a i{
@@ -312,8 +312,8 @@ footer{
 }
 
 .footer-bottom{
-    background: #CC9CCC;
-    color: #2B1135;
+    background: #FF9AA4;
+    color: #AD0018;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
@@ -346,7 +346,7 @@ footer{
     justify-content: center;
     display: flex;
     font-size: 3vw;
-    color: #2B1135;
+    color: #AD0018;
 }
 
 .section-contain hr{
@@ -355,14 +355,14 @@ footer{
     display: flex;
     width: 25%;
     margin-left: 37%;
-    background-color: #2B1135;
+    background-color: #AD0018;
     height: 1mm;
 }
 
 /*----------------------FIND US END----------------*/ 
 
 body{
-    background: #2B1135;
+    background: #AD0018;
     font-family: 'Times New Roman', Times, serifs;
 }
 
@@ -418,7 +418,7 @@ body{
 }
 
 .contact h3{
-    color: #2B1135;
+    color: #AD0018;
     font-weight: 500;
     font-size: 1.4rem;
     margin-bottom: 2.5rem;
@@ -450,7 +450,7 @@ body{
 }
 
 .inputBox span{
-    color: #CC9CCC;
+    color: #FF9AA4;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-weight: 500;
@@ -460,14 +460,14 @@ body{
     padding: 0.5rem;
     font-size: 0.75rem;
     outline: none;
-    border: 0.1rem solid #2B1135;
+    border: 0.1rem solid #AD0018;
 }
 
 .inputBox textarea{
     padding: 0.5rem;
     font-size: 0.75rem;
     outline: none;
-    border: 0.1rem solid #2B1135;
+    border: 0.1rem solid #AD0018;
     padding: 0.5rem;
     font-size: 0.75rem;
     resize: none;
@@ -476,8 +476,8 @@ body{
 }
 
 .inputBox input[type="submit"]{
-    background: #2B1135;
-    color: #CC9CCC;
+    background: #AD0018;
+    color: #FF9AA4;
     border: none;
     font-size: 1.1rem;
     max-width: 15vw;
@@ -487,7 +487,7 @@ body{
 }
 
 .inputBox ::placeholder{
-    color: #CC9CCC;
+    color: #FF9AA4;
 }
 
 .info{
@@ -503,8 +503,8 @@ body{
 .info .inputBox div span{
     min-width: 40px;
     height: 40px;
-    color: #CC9CCC;
-    background-color: #2B1135;
+    color: #FF9AA4;
+    background-color: #AD0018;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -514,12 +514,12 @@ body{
 }
 
 .info .infoBox div p{
-    color: #2B1135;
+    color: #AD0018;
     font-size: 1.1em;
 }
 
 .info .infoBox div a{
-    color: #CC9CCC;
+    color: #FF9AA4;
     text-decoration: none;
     font-size: 1.1em;
 }
@@ -537,11 +537,11 @@ body{
 .sci li a{
     color: white;
     font-size: 2em;
-    color: #2B1135;
+    color: #AD0018;
 }
 
 .sci li a:hover{
-    color: #CC9CCC;
+    color: #FF9AA4;
 }
 
 .map{
@@ -558,7 +558,7 @@ body{
 
 @media (max-width: 700px){
     body{
-        background: #2B1135;
+        background: #AD0018;
     }
 
     .contactUs{
