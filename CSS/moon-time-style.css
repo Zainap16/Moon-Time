@@ -72,7 +72,7 @@ margin: 10px;
 
 .btn-1{
   background-color: white;
-  color: black;
+ 
   border: 2px solid #567fe7;
   align-items: center;
   text-align: center;
@@ -98,9 +98,10 @@ margin: 10px;
 }
 
 a {
- 
+ color: #241D2A;
   text-decoration: none;
   font-size: 20px;
+  font-weight: bold;
 }
 
 a:hover {
@@ -197,11 +198,11 @@ a:hover {
   
   .socials a{
       text-decoration: none;
-      color: #FF9AA4;
+      color: #9C9AFF;
   }
   
   .socials a i{
-      font-size: 4.1rem;
+      font-size: 2rem;
   }
   
   .footer-bottom{
@@ -225,3 +226,5 @@ a:hover {
       opacity: .7;
       font-weight: 200;
   }
+
+  /* end of footer */
