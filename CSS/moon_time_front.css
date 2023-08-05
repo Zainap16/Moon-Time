@@ -371,7 +371,8 @@ body{
     width: 100%;
     padding: 2.5rem 2.5rem;
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/matrix-background-wallpaper-preview.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../Image/landscape_view_of_mountains_red_moon_sky_background_reflection_on_water_hd_red.jpg");
+    background-repeat: no-repeat;
     width: 100%;
 }
 
