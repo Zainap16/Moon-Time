@@ -1,0 +1,11 @@
+/* Apply border radius to the image */
+.rounded-image {
+    border-radius: 10px; /* Adjust the value to control the roundness */
+}
+
+hr {
+    border: none; /* Remove the default border */
+    height: 2px; /* Set the height of the line */
+    background-color: black; /* Set the color of the line */
+    margin: 20px 0; /* Add some margin for spacing */
+}
