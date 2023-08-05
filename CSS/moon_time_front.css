@@ -220,7 +220,7 @@ section{
     max-height: 0;
     overflow: hidden;
     position: relative;
-    background-color: #ffffffcc;
+    background-color: #ffd0d5;
     transition: max-height 350ms;
 }
 
@@ -239,6 +239,11 @@ section{
     color: rgba(0, 0, 0, .6);
     font-size: 1.4rem;
     padding: 2rem;
+    background-color: #ffd0d5;
+}
+
+.answer :hover{
+    color: rgba(0, 0, 0, .6);
 }
 
 .accordion-item:target .answer{
@@ -308,7 +313,8 @@ footer{
 }
 
 .socials a i{
-    font-size: 4.1rem;
+    size: 5vw;
+    font-size: 5vw;
 }
 
 .footer-bottom{
@@ -421,7 +427,7 @@ body{
 .contact h3{
     color: #AD0018;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-bottom: 2.5rem;
 }
 
@@ -520,7 +526,7 @@ body{
 }
 
 .info .infoBox div a{
-    color: #FF9AA4;
+    color: #AD0018;
     text-decoration: none;
     font-size: 1.1em;
 }
@@ -544,6 +550,27 @@ body{
 .sci li a:hover{
     color: #FF9AA4;
 }
+
+.sci2{
+    margin-top: 2.5rem;
+    display: flex;
+}
+
+.sci2 li{
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.sci2 li a{
+    color: white;
+    font-size: 3rem;
+    color: #FF9AA4;
+}
+
+.sci2 li a:hover{
+    color: #ffffff;
+}
+
 
 .map{
     padding: 0;
