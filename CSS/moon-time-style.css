@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
     
-
+/* copy eveyrhting */
 *{
  
   margin: 0;
@@ -55,7 +55,10 @@
 margin: 10px;
 
 }
-/* .btn-1 */
+
+
+/* BUTTONS */
+
 .btn{
   border: none;
   color: white;
@@ -117,6 +120,8 @@ a:hover {
 
 */
 
+/* HEADER/NAV-BAR */
+
 .header {
   width: 100%;
   height: auto;
@@ -147,7 +152,7 @@ a:hover {
     flex-direction: column;
     }
 
-    /* footer */
+    /* FOOTER */
 
     /* <!-- #9C9AFF light -->
 <!-- #567fe7  blur --> */
@@ -184,6 +189,7 @@ a:hover {
       font-size: 14px;
   }
   
+  /* ICONS */
   .socials{
       list-style: none;
       display: flex;
