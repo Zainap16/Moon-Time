@@ -72,15 +72,38 @@ margin: 10px;
 .btn-1{
   background-color: white;
   color: black;
-  border: 2px solid #4CAF50;
-
- 
+  border: 2px solid #567fe7;
+  align-items: center;
+  text-align: center;
 }
+
+/* .btn-2{
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-3{
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  align-items: center;
+  text-align: center;
+} */
 
 .btn-1:hover {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #9C9AFF;
+  
 }
+
+/* 
+
+<!-- #9C9AFF light -->
+<!-- #567fe7  blur -->
+
+*/
 
 .header {
   width: 100%;
@@ -89,8 +112,8 @@ margin: 10px;
   justify-content:center;
   align-items: center; 
   font-family:'Times New Roman', Times, serif;
-  font-size: 300%;
-  color: #AD0018;
+  font-size: 500%;
+ 
   }
 
   .header hr{
@@ -99,7 +122,7 @@ margin: 10px;
       display: flex;
       width: 90%;
       margin-left: 6%;
-      background-color: #AD0018;
+    
       height: 1mm;
   }
 
