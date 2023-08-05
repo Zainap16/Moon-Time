@@ -1,7 +1,12 @@
-body {
-  font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+    
+
+*{
+ 
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .card {
@@ -69,10 +74,40 @@ margin: 10px;
   color: black;
   border: 2px solid #4CAF50;
 
- justify-content: center;
+ 
 }
 
 .btn-1:hover {
   background-color: #4CAF50;
   color: white;
 }
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center; 
+  font-family:'Times New Roman', Times, serif;
+  font-size: 300%;
+  color: #AD0018;
+  }
+
+  .header hr{
+      justify-content: center;
+      align-self: center;
+      display: flex;
+      width: 90%;
+      margin-left: 6%;
+      background-color: #AD0018;
+      height: 1mm;
+  }
+
+  
+  .header-container {
+    color: #5995DA;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
