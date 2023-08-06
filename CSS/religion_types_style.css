@@ -58,3 +58,15 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.center {
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+table, th, td {
+
+    border: 1px solid black;
+
+}
